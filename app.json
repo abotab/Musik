@@ -1,13 +1,13 @@
 {
     "name": "سورس قرآن×ميوزك",
-    "description": "سورس ابداع العرب لتشغيل والقران×الاغاني , اصدار اسورس v1 !",
-    "logo": "https://te.legra.ph/file/4807752a011965b771900.jpg",
+    "description": "أهلا بك في سورس ابداع العرب لتشغيل الصوتيات في المكالمه",
+    "logo": "https://telegra.ph/file/e50d822e3937bc3df0cac.jpg",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/STKR2/LG",
+    "repository": "https://github.com/abotab/Musik.git",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
-            "description": "اكتب هنا كود بايروجرام ,  https://replit.com/@freedomSource/Session-Generator#main.py",
+            "description": "اكتب هنا كود بايروجرام ,",
             "required": true
         },
         "OWNER_ID": {
