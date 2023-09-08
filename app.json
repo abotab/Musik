@@ -1,0 +1,109 @@
+{
+    "name": "سورس قرآن×ميوزك",
+    "description": "سورس ابداع العرب لتشغيل والقران×الاغاني , اصدار اسورس v1 !",
+    "logo": "https://te.legra.ph/file/4807752a011965b771900.jpg",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/STKR2/LG",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "اكتب هنا كود بايروجرام ,  https://replit.com/@freedomSource/Session-Generator#main.py",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "اكتب ايدي مالك البوت ،",
+            "required": true,
+            "value": "5802896978"
+        },
+        "ASSID": {
+            "description": "اكتب ايدي حساب المساعد ",
+            "required": true,
+            "value": ""
+        },
+        "BG_IMG": {
+            "description": " ، ضع هنا رابط صورة تلكراف يضهر عند تشغيل الاغنية او السوره ",
+            "required": true,
+            "value": "https://graph.org/file/061951daec85b0f94b83c.jpg"
+        },
+        "ASSNAME": {
+            "description": "ااسم حساب المساعد",
+            "required": true,
+            "value": ""
+        },
+        "ASSUSERNAME": {
+            "description": "اكتب هنا يوزر حساب المساعد بدون @",
+            "required": true,
+            "value": ""
+        },
+        "BOT_ID": {
+            "description": "اكتب هنا ايدي البوت",
+            "required": true,
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "اكتب هنا يوزر البوت بدون @",
+            "required": true,
+            "value": ""
+        },
+        "SUPPORT": {
+            "description": "اكتب هنا معرف قناتك",
+            "required": true,
+            "value": ""
+        },
+        "UPDATE": {
+            "description": "اكتب هنا يوزر المطور او القناه",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_USERNAME": {
+            "description": "اكتب هنا يوزر المطور",
+            "required": true,
+            "value": ""
+        },
+        "BOT_NAME": {
+            "description": "اكتب هنا اسم بوتك",
+            "required": true,
+            "value": ""
+        },
+        "START_PIC": {
+            "description": "لا تغيرها أبدا",
+            "value": "https://graph.org/file/8882cbd7cc786826d9ecb.jpg",
+            "required": true
+            
+        },
+        "API_ID": {
+            "description": "اكتب هنأ الايبي أيدي",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "اكتب هنأ الايبي هاش",
+            "required": true,
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "اكتب هنا ID المطورين  .",
+            "required": true,
+            "value": "5802896978"
+        },
+        "BOT_TOKEN": {
+            "description": "اكتب هنأ توكن البوت ",
+            "required": true,
+            "value": ""
+        },
+        "MONGO_DB_URI": {
+            "description": "لاتغيرها  ابدا",
+            "required": true,
+            "value": "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority"
+            
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
